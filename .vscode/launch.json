@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SpringpointApplication",
+      "request": "launch",
+      "mainClass": "io.simpleui.springpoint.SpringpointApplication",
+      "projectName": "springpoint",
+      "vmArgs": "-Dclojure.server.repl=\"{:port 5551 :accept clojure.core.server/repl}\"",
+    }
+  ]
+}
